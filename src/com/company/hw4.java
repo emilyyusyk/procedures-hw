@@ -2,7 +2,7 @@ package com.company;
 
 public class hw4 {
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         int [] t = {26, -1, 92, 34, -67, 8};
         int [] t2 = {26, -1, 92, 34, -67, 8};
         int [] t3 = {8, -67, 4, -6, 8};

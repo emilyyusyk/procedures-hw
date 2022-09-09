@@ -2,7 +2,7 @@ package com.company;
 
 public class hw7 {
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         hundred_primes ();
     }
 
@@ -28,7 +28,7 @@ public class hw7 {
 
     // 7.3
     static void hundred_primes () {
-        primes_smaller_than_100();
+        primes_smaller_than_100 ();
         for (int i = 100, counter = 0; counter < 75; i++)
             if (prime (i)) {
                 System.out.print (i + " ");
